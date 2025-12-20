@@ -1,0 +1,11 @@
+
+
+use python and telegram's python library to create a telegram bot which would be a skill for codex tool.
+  https://core.telegram.org/bots/tutorial
+  https://developers.openai.com/codex/skills/
+
+only one think is needed: the bot should be able to send a message to user by userid, when codex is prompted. assume that user will need to hardcode needed keys and
+user id into the bot source code
+
+---
+
