@@ -1,11 +1,13 @@
 
 # Codex skills
 
+*(Looking for a job. Urgently. I am a programmer of wide-specialization. ICPC finalist)*
+
 ## telegram-bot
 
-Send you you a message. For example you may want to get a notify every time codex finishes a job.
+Sends you a message. For example you may want to get a notify every time codex finishes a job.
 
-It only works for one-way notifications. Your replies the bot would not be relayed to the codex chat.
+It only works for one-way notifications. Your replies to the bot would not be relayed to the codex chat.
 
 To install :
 
@@ -18,5 +20,17 @@ To install :
 
 To test it, prompt codex: say "hi!" to me in Telegram.
 
+## skill-speaker
 
-*(Looking for a job. Urgently. Wide-specialization programmer. ICPC finalist)*
+Comlete.
+
+It does not work due to imposed timeout of 10 sec for codex skill tools.
+
+
+## skill-asterisk (voice call)
+
+A skill that was supposed to make possible to make a call, or a series of calls. Possibly making use of a phonebook.
+
+Incomlete at the moment.
+
+It would not work due to imposed timeout of 10 sec for codex skill tools.

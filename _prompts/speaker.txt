@@ -1,0 +1,16 @@
+
+use javascript to create a voice dialogue agent which would be a skill for the codex tool.
+  https://developers.openai.com/codex/skills/
+Use npm packages mic and speaker.
+
+Connect mic and speaker to OpenAI Realtime audio model for a dialog.
+
+Upon start , the tool should receive the detailed prompt which should:
+- give the agent the info needed for dialog.
+- state, what needs to be learned from the user.
+
+Note that during the dialog , the Realtime audio model would not have the access to most of the info which is accessible by underlying agent (Codex).
+
+
+Assume that user will need to hardcode needed keys into the source code: OPENAI_API_KEY
+Instruct the user in the installation manual.

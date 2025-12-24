@@ -1,0 +1,29 @@
+
+Use nodejs and jssip library to create a bridge between OpenAI Realtime audio model and asterisk.
+
+This would allow to prompt a Realtime Audio model to talk to a recipient, same time connection the Realtime Audio model to the recipient via asterisk.
+
+# Similar Application
+
+JSSIP docs might be incomplete, so please use an example application which has working SIP-to-Websocket bridging.
+It is localed at ./tmp/ . I created it myself, and it is a fully working example. To not make references to it, as I will delete the ./tmp , after you finish the job.
+
+Assume that user will need to hardcode into the top part of the main file:
+- OPENAI_API_KEY ( that string of characters, which starts from sk-proj-... )
+- SIP_URI  ( for example "sip:1234@test.example.com" )
+- SIP_USER ( for example "1234" )
+- SIP_PASS ( for example "12345" )
+
+# Phonebook
+
+A phone book is the useful concept for this. It might be embedded into the SKILL.md file, or it might be in a user prompt.
+The phonebook should put phone number in correspondense with Name and maybe short description
+
+## Example of a phonebook:
+
+Given in format Name, Phone Number, Description.
+
+- Alice, 1234, The girl from the other office branch, who sends encrypted messages to Bob.
+- Bob, 5678, The guy who is responsible for interpreting that messages.
+- Carol, 3456
+- Eve, 9876, assumed the role of an evil protagonist.

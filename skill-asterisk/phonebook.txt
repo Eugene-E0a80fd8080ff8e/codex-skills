@@ -1,0 +1,11 @@
+# Phonebook entries (freeform)
+#
+# Format (comma-separated):
+#   Name, Phone Number, Description (optional)
+#
+# Examples:
+- Alice, 1234, The girl from the other office branch, who sends encrypted messages to Bob.
+- Bob, 5678, The guy who is responsible for interpreting that messages.
+- Carol, 3456
+- Eve, 9876, assumed the role of an evil protagonist.
+

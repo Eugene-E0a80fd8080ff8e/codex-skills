@@ -1,0 +1,13 @@
+{
+  "name": "skill-asterisk-bridge",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node bridge.js"
+  },
+  "dependencies": {
+    "@roamhq/wrtc": "^0.8.0",
+    "jssip": "^3.10.0",
+    "openai": "^4.0.0"
+  }
+}

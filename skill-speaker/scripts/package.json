@@ -1,0 +1,14 @@
+{
+  "name": "skill-speaker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node voice-dialog.js"
+  },
+  "dependencies": {
+    "mic": "^2.1.2",
+    "openai": "^6.15.0",
+    "speaker": "^0.5.4",
+    "ws": "^8.18.0"
+  }
+}
